@@ -13,7 +13,6 @@ return {
     end,
   },
 
-<<<<<<< HEAD
   {
     "github/copilot.vim",
     lazy = false,
@@ -39,18 +38,4 @@ return {
   {
     "mbbill/undotree",
   }
-=======
-  {
-    "github/copilot.vim",
-    lazy = false,
-    config = function()  -- Mapping tab is already used by NvChad
-      vim.g.copilot_no_tab_map = true
-      vim.g.copilot_assume_mapped = true
-      vim.g.copilot_tab_fallback = ""
-    -- The mapping is set to other key, see custom/lua/mappings
-    -- or run <leader>ch to see copilot mapping section
-      vim.api.nvim_set_keymap("i", "<C-Right>", 'copilot#Accept("")', {silent = true})
-    end
-  },
->>>>>>> 746f9acf35cbcde4b4b929df0e7d8889ea8c2dbe
 }
