@@ -86,3 +86,15 @@ map('v', '`', '<esc>`>a`<esc>`<i`<esc>', opts)
 map('n', '<leader>f', ':Files<CR>', opts)  -- Requires a plugin like fzf.vim or Telescope
 map('n', '<leader>b', ':Buffers<CR>', opts)
 
+vim.opt.nu = true
+vim.opt.relativenumber = true
+
+vim.opt.tabstop = 8
+vim.opt.softtabstop = 8
+vim.opt.shiftwidth = 8
+vim.opt.expandtab = true
+
+vim.opt.hlsearch = true
+vim.opt.incsearch = true
+
+vim.opt.scrollof = 10
