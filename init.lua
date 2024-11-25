@@ -96,5 +96,3 @@ vim.opt.expandtab = true
 
 vim.opt.hlsearch = true
 vim.opt.incsearch = true
-
-vim.opt.scrollof = 10

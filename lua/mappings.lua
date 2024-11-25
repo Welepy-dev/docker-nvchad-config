@@ -9,7 +9,10 @@ map("i", "jk", "<ESC>")
 
 vim.keymap.set("v", "<A-Up>", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "<A-Down>", ":m '<-2<CR>gv=gv")
-vim.keymap.set("n", "<leader>y", "\"+y)
-vim.keymap.set("v", "<leader>y", "\"+y)
-vim.keymap.set("n", "<leader>Y", "\"+Y)
+vim.opt.scrolloff = 10
+
+vim.keymap.set("n", "<leader>y", "\"+y")
+vim.keymap.set("v", "<leader>y", "\"+y")
+vim.keymap.set("n", "<leader>Y", "\"+Y")
+
 -- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
